@@ -1,0 +1,10 @@
+El stock del siguente producto ha llegado a la cantidad mínima permitida:
+
+Producto:
+<span style="font-size:25px;color:#FF0000"><<ProductDescription>></span>
+
+Stock:
+<span style="font-size:40px;color:#FF0000"><<Stock>></span>
+
+Salmex
+#SalsitasMuyMexicanas
