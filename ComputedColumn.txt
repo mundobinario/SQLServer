@@ -1,0 +1,10 @@
+CREATE TABLE Persona
+(
+	PersonaID		INT			NOT NULL IDENTITY(1,1) PRIMARY KEY
+	,Nombre			VARCHAR(50)		NOT NULL
+	,Apellido		VARCHAR(50)		NOT NULL
+	,NombreCompleto	AS CONCAT(Nombre, ' ', Apellido)
+)
+
+INSERT INTO Persona
+SELECT 'Axel', 'Romero'
